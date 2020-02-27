@@ -12,6 +12,8 @@ import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { AuthService } from './core/auth.service';
 import { TodoComponent } from './todo/todo.component';
+import { TodoFooterComponent } from './todo/todo-footer/todo-footer.component';
+import { TodoHeaderComponent } from './todo/todo-header/todo-header.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { TodoComponent } from './todo/todo.component';
     LoginComponent,
     Code404Component,
     TodoComponent,
+    TodoFooterComponent,
+    TodoHeaderComponent,
   ],
   imports: [
     BrowserModule,

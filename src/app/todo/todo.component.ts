@@ -50,6 +50,10 @@ export class TodoComponent implements OnInit {
       .getTodos()
       .subscribe(todos => this.todos = [...todos]);
   }
+  onTextChanges(value) {
+    console.log(value);
+    this.desc = value;
+  }
 
 
 }
